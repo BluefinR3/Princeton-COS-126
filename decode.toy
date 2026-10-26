@@ -1,0 +1,49 @@
+it will read R[A] and goto 35 to end
+the program by checking its value
+10: 81FF
+11: 7801
+12: 1918
+13: C935
+reading 2 3 4 5 6 and 7 bits
+14: 82FF
+15: 83FF
+16: 84FF
+17: 85FF
+18: 86FF
+19: 87FF
+calculating the parity bits
+according to the instructions
+1A: 4A12
+1B: 4AA4
+1C: 4B13
+1D: 4BB4
+1E: 4C23
+1F: 4CC4
+comparing the correcting the bits
+20: 4DA5
+21: 4EB6
+22: 4FC7
+if no any parity bit passed
+23: CD28
+24: CE2C
+25: CF2F
+26: 4448
+27: C030
+if only first passed
+28: CE30
+29: CF30
+2A: 4338
+2B: C030
+if second is passed
+2C: CF30
+2D: 4228
+2E: C030
+if only third passed
+2F: 4118
+output the original
+30: 91FF
+31: 92FF
+32: 93FF
+33: 94FF
+34: C010
+35: 0000
